@@ -1,0 +1,80 @@
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+.md-block {
+	display: block !important;
+	text-align: right;
+}
+.md-block a.buy-btn {
+	display: inline-block;
+}
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+.sm-center {
+  text-align: center;
+}
+.slider-content {
+  border: 0 none;
+  padding: 0;
+}
+.sm-width {
+	width: 50%;
+	float: left;
+}
+
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+.container {width:300px}
+ 
+ .slider-content p {
+  display: none;
+}
+.slider-content h2 {
+  font-size: 22px;
+  letter-spacing: 0;
+  padding-bottom: 15px;
+}
+.slider-content {
+  border: 0 none;
+  padding: 0;
+}
+.comment-cont {
+	margin-left: 10px;
+	width: 80%;
+}
+.sm-width {
+	width: 50%;
+	float: left;
+} 
+ 
+/* .slider-content {
+  left: 25%;
+  top: 25%;
+  transform: translate(-17%, -20%);
+}
+.slider-content.text-white > h2 {
+  font-size: 25px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+.slider-content p {
+  font-size: 14px;
+  margin-bottom: 10px;
+} */
+
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+
+
+}
