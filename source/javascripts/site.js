@@ -1,1 +1,12 @@
-// This is where it all goes :)
+//= require_tree .
+//= require bootstrap.min
+//= require headline
+//= require imagesloaded.pckgd.min
+//= require isotope.pckgd.min
+//= require jquery.meanmenu.min
+//= require main
+//= require owl.carousel
+//= require plugins
+//= require wow.min
+//= require vendor/jquery-1.12.0.min
+//= require vendor/modernizr-2.8.3.min
